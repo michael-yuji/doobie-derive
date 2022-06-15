@@ -27,6 +27,8 @@ object Example {
 
   // we need to know how to convert `MyItem` from Json
   implicit def myItemDecoder: Decoder[MyItem] = ...
+  
+  
   @derivedoobie
   case class TestStruct(
     id: Int,
